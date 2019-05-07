@@ -3,4 +3,35 @@ body {
   min-height: 100vh;
   align-items: center;
   display: flex;
+  background: #88d5e9;
+  color: #333;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.containner {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 7px;
+  background: #fff;
+  flex: 0 0 80%;
+}
+
+button {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 50px;
+  color: #191919;
+  background: rgb(253, 253, 253);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
