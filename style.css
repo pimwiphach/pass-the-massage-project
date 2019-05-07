@@ -3,13 +3,14 @@ body {
   min-height: 100vh;
   align-items: center;
   display: flex;
-  background: #88d5e9;
+  background: #fdf0ea;
   color: #333;
-  font-family: "Nunito", sans-serif;
+  font-family: "Questrial", sans-serif;
   font-weight: 400;
+  letter-spacing: 0.75px;
 }
 
-.containner {
+.container {
   text-align: center;
   padding: 2rem;
   border-radius: 7px;
@@ -17,40 +18,44 @@ body {
   flex: 0 0 80%;
 }
 
+h4 {
+  color: lightslategray;
+}
+
 button {
   display: block;
-  font-family: "Nunito", sans-serif;
+  font-family: "Questrial", sans-serif;
   font-size: 12px;
   font-weight: bold;
   padding: 1rem 1.5rem;
   border: none;
   border-radius: 50px;
-  color: #191919;
-  background: rgb(253, 253, 253);
+  color: #333;
+  background: #fff;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
   outline: none;
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
 button:hover {
   opacity: 0.8;
   cursor: pointer;
-  background-color: #9272c2;
+  background-color: #fc6453;
   color: white;
   border: none;
 }
 
 input[type="text"] {
-  padding: 0.5rem;
+  padding: 0.5rem 1.5rem;
   margin: 1rem;
-  border-radius: 5px;
+  border-radius: 30px;
   font-size: 1.5rem;
-  border: 3px solid pink;
-  outline: none;
+  border: none;
+  background: rgb(255, 244, 239);
 }
 
 inout[type="text"]:focus {
